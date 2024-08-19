@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .element {
+      background-color: red;
+      margin: 5px 0;
+      padding: 5px;
+      color: white;
+      width: 100px;
+      border-radius: 20px;
+      text-align: center;
+      overflow: auto;
+    }
+
+    .new {
+      background-color: green;
+    }
+  </style>
+  <body>
+    <h1>Prueba</h1>
+
+    <p id="texto">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex mollitia
+      voluptate quasi consectetur doloribus architecto? Quaerat culpa nulla
+      velit? Similique, delectus! <br />
+      Velit dolorum ipsum ad tempore eveniet explicabo, recusandae culpa!
+    </p>
+
+    <h2>Elementos</h2>
+
+    <input type="text" id="title" />
+
+    <button id="crear">Crear elemento</button>
+
+    <button id="borrar">Eliminar elemento</button>
+
+    <ul>
+      <li class="element">Item 1</li>
+      <li class="element">Item 2</li>
+      <li class="element">Item 3</li>
+    </ul>
+
+    <script src="main.js"></script>
+  </body>
+</html>

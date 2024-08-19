@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Juan",
+    "edad": 30,
+    "peliculas": ["El Señor de los Anillos", "Star Wars"]
+  },
+  {
+    "nombre": "Pedro",
+    "edad": 28,
+    "peliculas": ["El Señor de los Anillos", "Star Wars"]
+  }
+]

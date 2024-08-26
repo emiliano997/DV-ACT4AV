@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tareas App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <h1>Tareas App</h1>
+
+    <form>
+      <label for="title">Titulo:</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        placeholder="Titulo de la tarea"
+      />
+
+      <label for="description">Descripción:</label>
+      <textarea
+        id="description"
+        name="description"
+        placeholder="Descripción de la tarea"
+      ></textarea>
+
+      <input type="button" value="Enviar" id="enviar" />
+    </form>
+
+    <div id="tareas" class="row"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

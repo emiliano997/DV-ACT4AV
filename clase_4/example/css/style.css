@@ -1,0 +1,28 @@
+.agent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.agent-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.agent h3 {
+  font-size: 20px;
+}
+
+.agent p {
+  font-size: 14px;
+}
+
+.agent:hover {
+  background-color: rgb(240, 240, 240);
+}

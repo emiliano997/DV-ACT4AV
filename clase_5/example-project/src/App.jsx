@@ -6,9 +6,7 @@ import { Banner } from "./components/Banner/Banner";
 // Componente App (Principal)
 function App() {
   return (
-    <section className="container">
-      <h1>Titulo de Página</h1>
-
+    <section>
       <Navbar />
     </section>
   );

@@ -34,17 +34,31 @@
   "users": [
     {
       "id": 1,
-      "name": "Emi",
+      "username": "emipe",
       "email": "emi@gmail.com",
       "password": "123456",
       "role": "admin"
     },
     {
       "id": 2,
-      "name": "Pepe",
-      "email": "pepe@gmail.com",
+      "username": "user",
+      "email": "user@gmail.com",
       "password": "123456",
       "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "user2",
+      "email": "user2@gmail.com",
+      "password": "1234",
+      "role": "admin"
     }
   ]
 }

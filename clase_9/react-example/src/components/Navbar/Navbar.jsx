@@ -1,20 +1,24 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
+import { toast } from "react-toastify";
 
 export function Navbar() {
   const { isLoggedIn, login, logout } = useAuth();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const username = e.target.elements.username.value;
     const password = e.target.elements.password.value;
 
-    const response = login(username, password);
+    const response = await login(username, password);
 
     if (!response) {
-      alert("Usuario o contraseña incorrectos");
+      toast.error("Usuario o contraseña incorrectos");
+      return;
     }
+
+    toast.success("Login exitoso");
   };
 
   return (

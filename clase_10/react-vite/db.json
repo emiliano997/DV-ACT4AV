@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Dell Inspiron 15",
+      "description": "Notebook Dell Inspiron 15 3000. \nCPU: Intel Core i17 12da Generación. \nRam: 16GB. SSD: 1TB. \nGráficos integrados. \nPantalla: 15.6 pugladas. \nSistema Operativo: Windows 11",
+      "price": 1000
+    },
+    {
+      "id": "2",
+      "title": "Lenovo Ideapad 3",
+      "description": "Notebook Lenovo Ideapad 3 15itl6. \nCPU: Intel Core i7 11va Generación. \nRam: 12GB. \nSSD: 256GB. \nGráficos integrados: Iris Xe. \nPantalla: 15.6. \nSistema Operativo: Windows 11",
+      "price": 600
+    }
+  ],
+  "users": [
+    {
+      "id": "e822",
+      "name": "emi",
+      "email": "emi@gmail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "197b",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "role": "admin"
+    }
+  ]
+}

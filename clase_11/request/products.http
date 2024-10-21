@@ -1,0 +1,11 @@
+### GET /products
+
+GET http://localhost:5000/products
+
+### GET /products?limit=2
+
+GET http://localhost:5000/products?limit=5
+
+### GET /products/:id -> req.params
+
+GET http://localhost:5000/products/23

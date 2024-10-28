@@ -1,0 +1,35 @@
+### GET /products
+
+GET http://localhost:5000/api/products
+
+### GET /products?limit=2
+
+GET http://localhost:5000/api/products?limit=5
+
+### GET /products/:id -> req.params
+
+GET http://localhost:5000/api/products/100
+
+### POST /products
+
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "name": "New Product",
+  "price": 250
+}
+
+### PUT /products/:id
+
+PUT http://localhost:5000/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Updated Product",
+  "price": 300
+}
+
+### DELETE /products/:id
+
+DELETE http://localhost:5000/api/products/100

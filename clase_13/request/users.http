@@ -1,0 +1,28 @@
+### GET /users
+
+GET http://localhost:5000/api/users
+
+### POST /users
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "New User",
+  "email": "new.user@gmail.com",
+  "age": 20,
+  "role": "user"
+}
+
+### PUT /users/:id
+
+PUT http://localhost:5000/api/users/1
+Content-Type: application/json
+
+{
+  "name": "Updated User"
+}
+
+### DELETE /users/:id
+
+DELETE http://localhost:5000/api/users/3

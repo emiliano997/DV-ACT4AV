@@ -1,0 +1,38 @@
+### GET /products
+
+GET http://localhost:5000/api/products
+
+### GET /products?limit=2
+
+GET http://localhost:5000/api/products?limit=5
+
+### GET /products/:id -> req.params
+
+GET http://localhost:5000/api/products/adsa
+
+### POST /products
+
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "name": "New Product",
+  "price": 250,
+  "stock": 15,
+  "image": "https://via.placeholder.com/150",
+  "status": "available"
+}
+
+### PUT /products/:id
+
+PUT http://localhost:5000/api/products/dassdd
+Content-Type: application/json
+
+{
+  "name": "Updated Product",
+  "price": 300
+}
+
+### DELETE /products/:id
+
+DELETE http://localhost:5000/api/products/dsasadd

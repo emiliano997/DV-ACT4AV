@@ -1,0 +1,39 @@
+### GET /products
+
+GET http://localhost:5000/api/products
+
+### GET /products?limit=2
+
+GET http://localhost:5000/api/products?limit=dads
+
+### GET /products/:id -> req.params
+
+GET http://localhost:5000/api/products/307b18fc-ba76-4878-9ee6-5e1a9e6cc237
+
+### POST /products
+
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "name": "New Product",
+  "price": 250,
+  "stock": 15,
+  "image": "https://via.placeholder.com/150",
+  "status": "available"
+}
+
+### PUT /products/:id
+
+PUT http://localhost:5000/api/products/eac30d2d-bdd5-4e65-af0e-423b25bcd896
+Content-Type: application/json
+
+{
+  "name": "Updated Product",
+  "price": 300,
+  "stock": 0
+}
+
+### DELETE /products/:id
+
+DELETE http://localhost:5000/api/products/eac30d2d-bdd5-4e65-af0e-423b25bcd896

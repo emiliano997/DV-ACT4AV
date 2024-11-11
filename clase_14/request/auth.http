@@ -1,0 +1,16 @@
+### POST Login
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "123456"
+}
+
+### Register
+
+### Profile
+
+GET http://localhost:5000/api/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNhODZmMmQ5LWFjM2YtNDIzOS1iZGVjLTNlZGZiZDcwYmVjYSIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzMxMzU4NDUwLCJleHAiOjE3MzEzNTg3NTB9.2BZhHlzTKCEwDwIIruhUK7DwCSuEur1syOWz30WsVMI
